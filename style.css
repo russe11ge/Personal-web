@@ -1,0 +1,18 @@
+
+/* a:hover{
+    filter: blur(10px)
+} */
+
+a:hover{
+    filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
+header[role="banner"] ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+header[role="banner"] ul li {
+    display: block;
+    margin: 0 var(--spacing-1-4)
+}
