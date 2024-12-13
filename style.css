@@ -6,6 +6,11 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+    background-color: #f0f0f0; /* 你可以将#f0f0f0替换为你想要的颜色代码 */
+  }
+  
 /*字体*/
 body {
     font-family: "Poppins", sans-serif;
@@ -168,7 +173,7 @@ section {
   gap: 5rem;
   height: 80vh;
 }
-
+/* 照片储存大小 */
 .section__pic-container {
   display: flex;
   height: 400px;
