@@ -1,0 +1,11 @@
+
+
+/* 页面变小才会出现hamburger menu */
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+}

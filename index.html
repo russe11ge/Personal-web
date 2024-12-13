@@ -3,6 +3,670 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russell Ge</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <nav id="desktop-nav">
+        <div class="logo">Russell Ge</div>
+        <div>
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- 可展开菜单 -->
+        <nav id="hamburger-nav">
+          <div class="logo">Russell Ge</div>
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">  <!-- 可展开菜单 -->
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu-links">
+              <li><a href="#about" onclick="toggleMenu()">About</a></li> <!-- 可展开菜单 -->
+              <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+          </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+              <img src="./assets/profile-russell.png" alt="Russell Ge profile picture" />
+            </div>
+            <div class="section__text">
+              <p class="section__text__p1">Hello, I'm</p>
+              <h1 class="title">Russell Ge</h1>
+              <p class="section__text__p2">Game Designer</p>
+
+              <div class="btn-container">
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                  Contact Info
+                </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/itch3.png"
+            alt="My itch.io profile"
+            class="icon"
+            onclick="location.href='https://russe111.itch.io/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/russe11ge'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/about-russell.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>1+ years <br />Unity Studying</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                  />
+                  <h3>Education</h3>
+                  <p>Bachelor of Fine Arts<br />The International Baccalaureate®</p>
+                </div>
+              </div>
+              <div class="text-container">
+                <p>
+                I am currently a sophomore at Parson School of Design. 
+                I am majoring in Design & Technology with a Game Design track.
+                My vision for studying Game Design is to convey values through games.
+                </p>
+              </div>
+            </div>
+          </div>
+          <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Game Design</h2>
+              <div class="article-container">
+                <article>
+                    <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Unity</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Blender</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Creative Technology</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>P5.js</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+                <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Html</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Game Design Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-gamescomefromlife.png"
+              alt="Games come from life"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Games come from life</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-1 project-btn"
+              onclick="location.href='https://russe111.itch.io/games-come-from-life'"
+            >
+              itch.io
+            </button>
+            <button
+                class="btn btn-color-1 project-btn"
+                onclick="location.href='https://github.com/russe11ge'"
+              >
+                Github
+              </button>
+      </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-museum.png"
+            alt="Museum"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Museum</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1 project-btn"
+            onclick="location.href='https://russe111.itch.io/museum'"
+          >
+            itch.io
+          </button>
+          <button
+              class="btn btn-color-1 project-btn"
+              onclick="location.href='https://github.com/russe11ge'"
+            >
+              Github
+            </button>
+    </div>
+  </div>
+  <div class="details-container color-container">
+    <div class="article-container">
+      <img
+        src="./assets/project-thebookofanswers2.png"
+        alt="The Book of Answers"
+        class="project-img"
+      />
+    </div>
+    <h2 class="experience-sub-title project-title">The Book of Answers</h2>
+    <div class="btn-container">
+      <button
+        class="btn btn-color-1 project-btn"
+        onclick="location.href='https://russe111.itch.io/the-book-of-answers'"
+      >
+        itch.io
+      </button>
+      <button
+          class="btn btn-color-1 project-btn"
+          onclick="location.href='https://github.com/russe11ge'"
+        >
+          Github
+        </button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="experience-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-meomrymatch.png"
+                alt="Memory Match game"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Memory Match game</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="location.href='https://russe111.itch.io/memory-match-game'"
+              >
+                itch.io
+              </button>
+              <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="location.href='https://github.com/russe11ge'"
+                >
+                  Github
+                </button>
+        </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-lifechoices.png"
+                alt="Life Chices"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Life Chices</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="location.href='https://russe111.itch.io/life-choices'"
+              >
+                itch.io
+              </button>
+              <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="location.href='https://github.com/russe11ge'"
+                >
+                  Github
+                </button>
+        </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-fixtheproject.png"
+                alt="Fix the project"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Fix the project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="location.href='https://russe111.itch.io/fix-the-project'"
+              >
+                itch.io
+              </button>
+              <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="location.href='https://github.com/russe11ge'"
+                >
+                  Github
+                </button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="experience-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-rube.png"
+                alt="Rube Goldburg Machine"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Rube Goldburg Machine</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="location.href='https://russe111.itch.io/rubegoldburgmachine'"
+              >
+                itch.io
+              </button>
+              <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="location.href='https://github.com/russe11ge'"
+                >
+                  Github
+                </button>
+        </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-animation.png"
+                alt="Animation"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Animation</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="location.href='https://russe111.itch.io/animation'"
+              >
+                itch.io
+              </button>
+              <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="location.href='https://github.com/russe11ge'"
+                >
+                  Github
+                </button>
+        </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-golfgame.png"
+                alt="Golf Game"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Golf Game</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="location.href='https://russe111.itch.io/golfgame'"
+              >
+                itch.io
+              </button>
+              <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="location.href='https://github.com/russe11ge'"
+                >
+                  Github
+                </button>
+        </div>
+        </div>
+    </div>
+</div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects2'"
+      />
+    </section>
+    <section id="projects2">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Creative Technology Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-Autobiographical Game.png"
+                  alt="Autobiographical Game"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Autobiographical Game</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="location.href='https://editor.p5js.org/russe11/full/rsdtVw6E4'"
+                >
+                  p5.js
+                </button>
+                <button
+                    class="btn btn-color-1 project-btn"
+                    onclick="location.href='https://github.com/russe11ge'"
+                  >
+                    Github
+                  </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-Data Portrait.png"
+                alt="Data Portrait"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Data Portrait</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-1 project-btn"
+                onclick="location.href='https://editor.p5js.org/russe11/full/37R9rEzHY'"
+              >
+                p5.js
+              </button>
+              <button
+                  class="btn btn-color-1 project-btn"
+                  onclick="location.href='https://github.com/russe11ge'"
+                >
+                  Github
+                </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-Optical Illusion.png"
+            alt="Optical Illusion"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Optical Illusion</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-1 project-btn"
+            onclick="location.href='https://editor.p5js.org/russe11/full/JMIgmtxC1'"
+          >
+            p5.js
+          </button>
+          <button
+              class="btn btn-color-1 project-btn"
+              onclick="location.href='https://github.com/russe11ge'"
+            >
+              Github
+            </button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/Project-Exquisite Corpse.png"
+                    alt="Exquisite Corpse"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Exquisite Corpse</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-1 project-btn"
+                    onclick="location.href='https://editor.p5js.org/russe11/full/MKDcQpNcX'"
+                  >
+                    p5.js
+                  </button>
+                  <button
+                      class="btn btn-color-1 project-btn"
+                      onclick="location.href='https://github.com/russe11ge'"
+                    >
+                      Github
+                    </button>
+            </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/project-Experimental Clock.png"
+                    alt="Experimental Clock"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Experimental Clock</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-1 project-btn"
+                    onclick="location.href='https://editor.p5js.org/russe11/full/Hfjumzd7K'"
+                  >
+                    p5.js
+                  </button>
+                  <button
+                      class="btn btn-color-1 project-btn"
+                      onclick="location.href='https://github.com/russe11ge'"
+                    >
+                      Github
+                    </button>
+            </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/project-Face Generator.png"
+                    alt="Face Generator"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Face Generator</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-1 project-btn"
+                    onclick="location.href='https://editor.p5js.org/russe11/full/YnvJSLhl3w'"
+                  >
+                    p5.js
+                  </button>
+                  <button
+                      class="btn btn-color-1 project-btn"
+                      onclick="location.href='https://github.com/russe11ge'"
+                    >
+                      Github
+                    </button>
+            </div>
+            </div>
+        </div>
+    </div>
+          <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+          />
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="./assets/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:geh227@newschool.edu">geh227@newschool.edu</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="./assets/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="mailto:easymoneysniperge@163.com">easymoneysniperge@163.com</a></p>
+              </div>
+            </div>
+          </section>
+
+          <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+            <p>Copyright &#169; 2024 Russell Ge. All Rights Reserved.</p>
+          </footer>
+
+
+   <script src="scripts.js"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RussellGe</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,4 +742,4 @@
 
 
 </body>
-</html>
+</html> -->
