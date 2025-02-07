@@ -61,12 +61,10 @@ body {
 html {
     scroll-behavior: smooth;
   }
-/*颜色*/
-  /* p {
-    color: var(--paragraph-color);
-  } */
 
- /* TRANSITION */
+  p {
+    color: var(--paragraph-color);
+  }
 
 a,
 .btn {
@@ -344,7 +342,6 @@ section {
   }
 
   /* EXPERIENCE SECTION */
-
 #experience {
     position: relative;
     color: var(--text-color);
@@ -363,13 +360,11 @@ section {
 }
 /* 页面大小对其 */
 .article-container {
-    display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+  justify-items: center;
+}
   
   article {
     display: flex;
@@ -383,7 +378,6 @@ section {
   }
 
   /* PROJECTS SECTION */
-
 #projects {
     position: relative;
   }
@@ -414,7 +408,6 @@ section {
   }
 
 /* CONTACT */
-
 #contact {
     display: flex;
     justify-content: center;
@@ -450,7 +443,6 @@ section {
   }
 
 /* FOOTER SECTION */
-
 footer {
     height: 26vh;
     margin: 0 1rem;
@@ -461,7 +453,7 @@ footer {
   }
 
 
-  /* 音乐按钮样式 */
+  /* 音乐按钮 */
   .music-control {
       position: absolute;
       top: 55px;
